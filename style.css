@@ -2709,13 +2709,13 @@ blockquote {
     position: relative;
 }
 
-.about2-content h2:before {
+/*.about2-content h2:before {
     content: url('img/about2-title-bg.png');
     top: 0;
     left: 0;
     position: absolute;
     z-index: -1;
-}
+}*/
 
 .about2-content h2:after {
     content: "";
@@ -2808,6 +2808,10 @@ blockquote {
     z-index: 1;
 }
 
+.col-md-6:nth-child(2) {
+    margin-bottom: 40px;
+}
+
 .about2-content-box h4 {
     color: #fff;
     font-size: 16px;
@@ -2828,8 +2832,9 @@ blockquote {
 }
 
 .about2-content-inner {
-    padding: 188px 5px 0 40px;
+    padding: 188px 10px 0 40px;
 }
+
 
 /* ---------------------------------------- */
 /* 20 - END PAGE ABOUT
