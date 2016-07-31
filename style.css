@@ -688,10 +688,17 @@ blockquote {
 
 .navbar-brand {
     background-color: #f4c026;
+    text-align: center;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
     background-color: #f4c026 !important;
+    text-align: center;
+    padding-top: .5em;
+}
+
+.navbar-text {
+    vertical-align: center;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -762,7 +769,7 @@ blockquote {
     padding: 0;
 }
 
-.navbar-default .navbar-nav > li:last-child > a {
+/*.navbar-default .navbar-nav > li:last-child > a {
     background-color: #f4c026;
     line-height: 50px;
     margin-top: 25px;
@@ -781,7 +788,7 @@ blockquote {
 }
 
 .navbar-default .navbar-nav > li:last-child > a:before {
-    display: none;
+    display: none;*/
 }
 
 .navbar-collapse {
@@ -1123,10 +1130,10 @@ blockquote {
     content: "";
     left: 0px;
     height: 2px;
-    -webkit-transform: skewY(15deg);
+/*    -webkit-transform: skewY(15deg);
     -ms-transform: skewY(15deg);
     -o-transform: skewY(15deg);
-    transform: skewY(15deg);
+    transform: skewY(15deg);*/
     bottom: calc(38% + 2px);
     background-color: rgba(255,255,255,.2);
 }
@@ -1137,10 +1144,10 @@ blockquote {
     content: "";
     left: 0px;
     height: 52%;
-    -webkit-transform: skewY(15deg);
+/*    -webkit-transform: skewY(15deg);
     -ms-transform: skewY(15deg);
     -o-transform: skewY(15deg);
-    transform: skewY(15deg);
+    transform: skewY(15deg);*/
     bottom: -48px;
     background: #fff;
 }
@@ -2542,6 +2549,14 @@ blockquote {
     line-height: 30px;
 }
 
+.footer-right {
+    float: right;
+}
+
+.footer-left {
+    float: left;
+}
+
 /* ---------------------------------------- */
 /* 15. END FOOTER
 /* ---------------------------------------- */
@@ -2796,6 +2811,7 @@ blockquote {
     width: 0;
     height: 0;
     z-index: 1;
+    padding-bottom: 2em;
 }
 
 .about2-content-bottom::after {
@@ -2806,6 +2822,7 @@ blockquote {
     width: 0;
     height: 0;
     z-index: 1;
+    padding-bottom: 2em;
 }
 
 .col-md-6:nth-child(2) {
@@ -3872,10 +3889,10 @@ blockquote {
     }
     .single-service::before {
         bottom: calc(38% + 15px);
-        transform: skewY(10deg);
+    /*    transform: skewY(10deg);*/
     }
     .single-service::after {
-        transform: skewY(10deg);
+    /*    transform: skewY(10deg);*/
     }
     .service-details h4::before {
         top: -80px;
@@ -3946,6 +3963,10 @@ blockquote {
     /* BLOG */
     .blog-details {
         padding: 25px 15px 0 30px;
+    }
+    /* FOOTER */
+    .footer-left {
+        width: 40;
     }
 }
 
