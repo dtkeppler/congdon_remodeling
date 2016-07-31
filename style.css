@@ -602,7 +602,7 @@ blockquote {
 }
 
 #page-index-2 #home {
-    background-image: url(img/bg/home-bg-2.jpg);
+    /*background-image: url(img/bg/home-bg-2.jpg);*/
     position: relative;
 }
 
@@ -1044,7 +1044,7 @@ blockquote {
 /* ---------------------------------------- */
 
 #home-banner {
-    background-image: url(img/bg/banner-bg.jpg);
+/*    background-image: url(img/bg/banner-bg.jpg);*/
     position: relative;
 }
 
@@ -1223,7 +1223,7 @@ blockquote {
 /* ---------------------------------------- */
 
 #promo {
-    background-image: url(img/bg/promo-bg.jpg);
+    /*background-image: url(img/bg/promo-bg.jpg)*/;
     position: relative;
     padding: 25px 0;
 }
@@ -1464,7 +1464,7 @@ blockquote {
 /* ---------------------------------------- */
 
 #counter {
-    background-image: url(img/bg/counter-bg.jpg);
+    /*background-image: url(img/bg/counter-bg.jpg);*/
     position: relative;
     padding: 25px 0;
 }
@@ -2084,7 +2084,7 @@ blockquote {
 /* ---------------------------------------- */
 
 #client {
-    background-image: url('img/bg/client-bg.jpg');
+    /*background-image: url('img/bg/client-bg.jpg');*/
     padding-top: 240px;
     padding-bottom: 40px;
     position: relative;
@@ -2399,7 +2399,7 @@ blockquote {
 /* ---------------------------------------- */
 
 #footer {
-    background-image: url('img/bg/footer-bg.jpg');
+    /*background-image: url('img/bg/footer-bg.jpg');*/
     padding: 185px 0 100px;
     position: relative;
 }
